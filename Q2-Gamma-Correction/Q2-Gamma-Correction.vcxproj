@@ -55,16 +55,10 @@
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="..\PropertySheet.props" />
-    <Import Project="..\Q1-Phong-Shading\PropertySheet.props" />
-    <Import Project="..\Q1-Phong-Shading\PropertySheet1.props" />
     <Import Project="..\OpenglViewer.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="..\PropertySheet.props" />
-    <Import Project="..\Q1-Phong-Shading\PropertySheet.props" />
-    <Import Project="..\Q1-Phong-Shading\PropertySheet1.props" />
     <Import Project="..\OpenglViewer.props" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
