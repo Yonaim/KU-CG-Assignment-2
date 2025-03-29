@@ -8,3 +8,7 @@ bin
 *.user
 *.suo
 *.vsidx
+*.recipe
+*.log
+*.tlog
+*.idb
