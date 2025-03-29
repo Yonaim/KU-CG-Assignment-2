@@ -11,12 +11,12 @@ This is a Ray Tracing project utilizing OpenGL for rendering. The project showca
    - Open Visual Studio and select `File` -> `Open` -> `Project/Solution`.
    - Navigate to the folder where you cloned the repository and open the project file (usually `.sln`).
 
-3. **Set the Project as Startup Project:**
+3. **Build the Project:**
+   - In Visual Studio, go to `Build` -> `Build Solution` or press `Ctrl + Shift + B` to compile the project.
+  
+4. **Set the Project as Startup Project:**
 	- In the Solution Explorer, right-click the project you want to run.
 	- Select `Set as Startup Project`.
-
-4. **Build the Project:**
-   - In Visual Studio, go to `Build` -> `Build Solution` or press `Ctrl + Shift + B` to compile the project.
 
 5. **Run the Project:**
    - After the build is complete, run the project by selecting `Debug` -> `Start Debugging` or pressing `F5`.
@@ -37,8 +37,8 @@ This is a Ray Tracing project utilizing OpenGL for rendering. The project showca
 
 ![Q3_output](screenshots/Q3_output.png)
 
-Before Antiailasing:
+##### Before Antiailasing:
 ![Q3_before_antiailasing](screenshots/Q3_before_antiailasing.png)
 
-After Antiailasing:
+##### After Antiailasing:
 ![Q3_after_antiailasing](screenshots/Q3_after_antiailasing.png)
