@@ -1,4 +1,10 @@
-.vs
-Debug
-Ray-Tracer.pdb
-Ray-Tracer.exe
+bin
+.DS_Store
+*.exe
+*.pdb
+*.obj
+.vs/
+.vscode/
+*.user
+*.suo
+*.vsidx
